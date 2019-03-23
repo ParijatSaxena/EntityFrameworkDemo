@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NinjaDomain
+namespace NinjaDomain.Enums
 {
-    public class Class1
+    public enum EquipmentType
     {
+        Tool = 1,
+        Weapon = 2,
+        Outwear = 3
     }
 }
